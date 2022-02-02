@@ -2584,6 +2584,10 @@ figcaption {
   text-align: center;
 }
 
+.display-3.temp {
+  color: #fff;
+}
+
 .changelog {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4199,6 +4203,7 @@ figcaption {
 }
 
 .testimonials-name {
+  margin-top: 5px;
   margin-bottom: 5px;
   color: #535353;
   font-size: 18px;
@@ -4208,6 +4213,11 @@ figcaption {
 .testimonials-name.team {
   color: #000;
   font-weight: 700;
+}
+
+.testimonials-name.team-description {
+  margin-top: 10px;
+  font-weight: 400;
 }
 
 .blog-post-wrapper {
@@ -4314,9 +4324,14 @@ figcaption {
 }
 
 .feature {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   color: #535353;
   font-size: 18px;
   font-weight: 500;
+  text-align: left;
 }
 
 .pricing-type {
@@ -4960,6 +4975,10 @@ figcaption {
   .roadmap-card-3 {
     width: auto;
     min-width: 420px;
+  }
+
+  .grid {
+    display: block;
   }
 
   .roadmap-card {
