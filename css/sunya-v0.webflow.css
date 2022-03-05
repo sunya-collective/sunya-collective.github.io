@@ -2158,10 +2158,10 @@ li {
   font-weight: 500;
 }
 
-img {
+/* img {
   display: inline-block;
   max-width: 100%;
-}
+} */
 
 strong {
   font-weight: bold;
