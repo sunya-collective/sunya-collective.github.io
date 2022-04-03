@@ -1,0 +1,9 @@
+<html>
+    <script>
+        let url = new URL(window.location.href);
+        let searchParams = new URLSearchParams(url.search);
+        console.log(searchParams.get('uid')); 
+
+        window.location.href = "https://sunya-verification.vercel.app"
+    </script>
+</html>
