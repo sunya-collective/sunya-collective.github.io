@@ -5,8 +5,9 @@
     <script>
         let url = new URL(window.location.href);
         let searchParams = new URLSearchParams(url.search);
-        console.log(searchParams.get('uid')); 
+        let tokenAddr = searchParams.get('tokenAddr');
+        let tokenId = searchParams.get('tokenId');
 
-        window.location.href = "https://sunya-verification.vercel.app"
+        window.location.href = "https://sunya-verification.vercel.app/" + tokenAddr + "/" + tokenId;
     </script>
 </html>
